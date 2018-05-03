@@ -1,0 +1,27 @@
+<div class="content-section introduction">
+    <div>
+        <span class="feature-title">PieChart</span>
+        <span>A pie chart is a circular statistical graphic, which is divided into slices to illustrate numerical proportion.</span>
+    </div>
+</div>
+
+<section class="content-section">
+	<div class="row">
+		<div class="pie_chart"><p-chart type="pie" [data]="data"></p-chart></div>
+		<div class="pie_chart"><p-chart type="pie" [data]="data"></p-chart></div>
+		<div class="pie_chart"><p-chart type="pie" [data]="data"></p-chart></div>
+	</div>
+	<div class="row">
+		<div class="pie_chart"><p-chart type="pie" [data]="data"></p-chart></div>
+		<div class="pie_chart"><p-chart type="pie" [data]="data"></p-chart></div>
+		<div class="pie_chart"><p-chart type="pie" [data]="data"></p-chart></div>
+	</div>
+	<div class="row">
+		<div class="pie_chart"><p-chart type="pie" [data]="data"></p-chart></div>
+		<div class="pie_chart"><p-chart type="pie" [data]="data"></p-chart></div>
+		<div class="pie_chart"><p-chart type="pie" [data]="data"></p-chart></div>
+	</div>
+</section>
+<div>
+	<button class="download_pdf" (click)="pdfdownload()">Download as PDF</button>
+</div>
